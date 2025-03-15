@@ -12,7 +12,7 @@ class Rkn_Bots(object):
     # Rkn client config  ( required.. 😥)
     API_ID = os.environ.get("API_ID", "23009724")
     API_HASH = os.environ.get("API_HASH", "66a87d259426e268bdd765fb4c635f2b")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7824911074:AAEk7FKLig0x48wL3Evzw7-pAxJ5Gx6_lh4")
 
     # start_pic
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/21a8e96b45cd6ac4d3da6.jpg")
@@ -22,11 +22,11 @@ class Rkn_Bots(object):
     PORT = int(os.environ.get("PORT", "8080"))
 
     # force subs channel ( required.. 😥)
-    FORCE_SUB = os.environ.get("FORCE_SUB", "Rkn_Botz") 
+    FORCE_SUB = os.environ.get("FORCE_SUB", "kannadamovieskannadadubb") 
     
     # database config ( required.. 😥)
-    DB_NAME = os.environ.get("DB_NAME", "AutoCaption_V05_Bot")     
-    DB_URL = os.environ.get("DB_URL", "")
+    DB_NAME = os.environ.get("DB_NAME", "Helo_files")     
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://hello:Preethu@cluster0.isgp5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
     # default caption 
     DEF_CAP = os.environ.get("DEF_CAP", "<b><a href='https//:t.me/Rkn_Botz'>{file_name} Main Telegram Channel: @RknDeveloper</a></b>",
