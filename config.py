@@ -10,8 +10,8 @@ id_pattern = re.compile(r'^.\d+$')
 class Rkn_Bots(object):
     
     # Rkn client config  ( required.. 😥)
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = os.environ.get("API_ID", "23009724")
+    API_HASH = os.environ.get("API_HASH", "66a87d259426e268bdd765fb4c635f2b")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     # start_pic
@@ -36,7 +36,7 @@ class Rkn_Bots(object):
     STICKER_ID = os.environ.get("STICKER_ID", "CAACAgIAAxkBAAELFqBllhB70i13m-woXeIWDXU6BD2j7wAC9gcAAkb7rAR7xdjVOS5ziTQE")
 
     # admin id  ( required.. 😥)
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '2089142494').split()]
     
 
 # Rkn Developer 
